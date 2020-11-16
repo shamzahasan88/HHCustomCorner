@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HHCustomCorner_Example' do
+  pod 'HHCustomCorner', :path => '../'
+
+  target 'HHCustomCorner_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
