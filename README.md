@@ -1,9 +1,9 @@
 # HHCustomCorner
 
-[![CI Status](https://img.shields.io/travis/shamzahasan88/HHCustomCorner.svg?style=flat)](https://travis-ci.org/shamzahasan88/HHCustomCorner)
-[![Version](https://img.shields.io/cocoapods/v/HHCustomCorner.svg?style=flat)](https://cocoapods.org/pods/HHCustomCorner)
-[![License](https://img.shields.io/cocoapods/l/HHCustomCorner.svg?style=flat)](https://cocoapods.org/pods/HHCustomCorner)
-[![Platform](https://img.shields.io/cocoapods/p/HHCustomCorner.svg?style=flat)](https://cocoapods.org/pods/HHCustomCorner)
+[![CI Status](https://img.shields.io/travis/shamzahasan88/HHCustomCorner.svg?style=for-the-badge)](https://travis-ci.org/shamzahasan88/HHCustomCorner)
+[![Version](https://img.shields.io/cocoapods/v/HHCustomCorner.svg?style=for-the-badge)](https://cocoapods.org/pods/HHCustomCorner)
+[![License](https://img.shields.io/cocoapods/l/HHCustomCorner.svg?style=for-the-badge)](https://cocoapods.org/pods/HHCustomCorner)
+[![Platform](https://img.shields.io/cocoapods/p/HHCustomCorner.svg?style=for-the-badge)](https://cocoapods.org/pods/HHCustomCorner)
 [![](https://img.shields.io/badge/Language-%20Swift-DB4E02.svg?style=for-the-badge&logo=swift)](https://developer.apple.com/swift)
 [![](https://img.shields.io/badge/Usage-%20Easy-00BF00.svg?style=for-the-badge)](https://cocoapods.org/pods/HHStaticThumbSliderView)
 
