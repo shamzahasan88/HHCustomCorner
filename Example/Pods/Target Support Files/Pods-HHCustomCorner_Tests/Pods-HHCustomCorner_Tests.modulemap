@@ -1,0 +1,6 @@
+framework module Pods_HHCustomCorner_Tests {
+  umbrella header "Pods-HHCustomCorner_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

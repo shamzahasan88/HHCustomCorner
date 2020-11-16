@@ -1,0 +1,22 @@
+{
+  "name": "HHCustomCorner",
+  "version": "0.1.0",
+  "summary": "A short description of HHCustomCorner.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shamzahasan88/HHCustomCorner",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shamzahasan88": "shamzahasan88@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/shamzahasan88/HHCustomCorner.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HHCustomCorner/Classes/**/*"
+}

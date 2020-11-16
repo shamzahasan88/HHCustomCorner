@@ -1,0 +1,16 @@
+PODS:
+  - HHCustomCorner (0.1.0)
+
+DEPENDENCIES:
+  - HHCustomCorner (from `../`)
+
+EXTERNAL SOURCES:
+  HHCustomCorner:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HHCustomCorner: 3864d495d20ecf3b271a592ac57b18ff6c4c9544
+
+PODFILE CHECKSUM: f03cd96f823481446ce1117d8fa11b2320170a61
+
+COCOAPODS: 1.9.3

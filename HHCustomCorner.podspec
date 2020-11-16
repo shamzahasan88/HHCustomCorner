@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HHCustomCorner'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HHCustomCorner.'
+  s.summary          = 'Awesome library to customize corners of UIView and UIButton. Now you can customize each corner differently'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,10 +17,8 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
+  s.description      = 'A simple and easy to use library to customize each corner of UIView and UIButton. You also can implement outline (stroke) with different color and width.'
+  s.swift_version = '4.0'
   s.homepage         = 'https://github.com/shamzahasan88/HHCustomCorner'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -28,15 +26,15 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/shamzahasan88/HHCustomCorner.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'HHCustomCorner/Classes/**/*'
+  s.source_files = 'Classes/*.swift'
   
   # s.resource_bundles = {
   #   'HHCustomCorner' => ['HHCustomCorner/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

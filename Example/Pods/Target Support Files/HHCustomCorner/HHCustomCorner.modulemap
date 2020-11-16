@@ -1,0 +1,6 @@
+framework module HHCustomCorner {
+  umbrella header "HHCustomCorner-umbrella.h"
+
+  export *
+  module * { export * }
+}

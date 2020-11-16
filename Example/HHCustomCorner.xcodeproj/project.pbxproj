@@ -29,9 +29,9 @@
 
 /* Begin PBXFileReference section */
 		2BC7024EE2209A5E5E2EDCEB /* Pods-HHCustomCorner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHCustomCorner_Example.release.xcconfig"; path = "Target Support Files/Pods-HHCustomCorner_Example/Pods-HHCustomCorner_Example.release.xcconfig"; sourceTree = "<group>"; };
-		36579D1245244A983740E304 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		36579D1245244A983740E304 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		59080A04845FF71CC343B08E /* Pods_HHCustomCorner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HHCustomCorner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD01AFB9204008FA782 /* HHCustomCorner_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHCustomCorner_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD01AFB9204008FA782 /* HHCustomCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHCustomCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		78B213F65F23BD93458FF9F7 /* Pods-HHCustomCorner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHCustomCorner_Example.debug.xcconfig"; path = "Target Support Files/Pods-HHCustomCorner_Example/Pods-HHCustomCorner_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7928A697023B939E599F5E1B /* Pods-HHCustomCorner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHCustomCorner_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HHCustomCorner_Tests/Pods-HHCustomCorner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		799E4EAF85B34A6C9B05D49D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		799E4EAF85B34A6C9B05D49D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		907A31D90AEBD01A9981AFDE /* Pods-HHCustomCorner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHCustomCorner_Tests.release.xcconfig"; path = "Target Support Files/Pods-HHCustomCorner_Tests/Pods-HHCustomCorner_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D825CB63D6A5563321EEC88F /* Pods_HHCustomCorner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HHCustomCorner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7AA6DB0E33B7FC5BB791A3C /* HHCustomCorner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HHCustomCorner.podspec; path = ../HHCustomCorner.podspec; sourceTree = "<group>"; };
+		E7AA6DB0E33B7FC5BB791A3C /* HHCustomCorner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HHCustomCorner.podspec; path = ../HHCustomCorner.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,7 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* HHCustomCorner_Example.app */,
+				607FACD01AFB9204008FA782 /* HHCustomCorner.app */,
 				607FACE51AFB9204008FA782 /* HHCustomCorner_Tests.xctest */,
 			);
 			name = Products;
@@ -156,7 +156,6 @@
 				7928A697023B939E599F5E1B /* Pods-HHCustomCorner_Tests.debug.xcconfig */,
 				907A31D90AEBD01A9981AFDE /* Pods-HHCustomCorner_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -179,7 +178,7 @@
 			);
 			name = HHCustomCorner_Example;
 			productName = HHCustomCorner;
-			productReference = 607FACD01AFB9204008FA782 /* HHCustomCorner_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* HHCustomCorner.app */;
 			productType = "com.apple.product-type.application";
 		};
 		607FACE41AFB9204008FA782 /* HHCustomCorner_Tests */ = {
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -479,10 +479,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HHCustomCorner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.HHCustomCorner;
+				PRODUCT_NAME = HHCustomCorner;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -494,10 +495,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HHCustomCorner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.HHCustomCorner;
+				PRODUCT_NAME = HHCustomCorner;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
