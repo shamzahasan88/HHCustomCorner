@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HHCustomCorner'
-  s.version          = '0.1.1'
+  s.version          = '0.1.3'
   s.summary          = 'Awesome library to customize corners of UIView and UIButton. Now you can customize each corner differently'
 
 # This description is used to generate tags and improve search results.
