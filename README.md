@@ -7,7 +7,7 @@
 [![](https://img.shields.io/badge/Language-%20Swift-DB4E02.svg?style=for-the-badge&logo=swift)](https://developer.apple.com/swift)
 [![](https://img.shields.io/badge/Usage-%20Easy-00BF00.svg?style=for-the-badge)](https://cocoapods.org/pods/HHStaticThumbSliderView)
 
-![](http://appforshare.io/github-assets/Logo__2.png)
+![](https://reignsol.net/github-assets/Logo__2.png)
 
 ## Example
 
@@ -24,7 +24,7 @@ pod 'HHCustomCorner'
 
 ## Preview
 
-![](http://appforshare.io/github-assets/hhcustomcorner.gif)
+![](https://reignsol.net/github-assets/hhcustomcorner.gif)
 
 ## How to use
 
@@ -35,8 +35,8 @@ pod 'HHCustomCorner'
 - Assign properties in `HHCustomCornerView` inspector
 - Customize corners as per your need
 
-![](http://appforshare.io/github-assets/hhcustomcorner_inspector.png)
-![](http://appforshare.io/github-assets/hhcustomcorner_example.png)
+![](https://reignsol.net/github-assets/hhcustomcorner_inspector.png)
+![](https://reignsol.net/github-assets/hhcustomcorner_example.png)
 
 ### UIButton
 - Drop a UIView in UIViewController
@@ -45,8 +45,8 @@ pod 'HHCustomCorner'
 - Assign properties in `HHCustomCornerButton` inspector
 - Customize corners as per your need
 
-![](http://appforshare.io/github-assets/hhcustomcornerbutton_inspector.png)
-![](http://appforshare.io/github-assets/hhcustomcornerbutton_example.png)
+![](https://reignsol.net/github-assets/hhcustomcornerbutton_inspector.png)
+![](https://reignsol.net/github-assets/hhcustomcornerbutton_example.png)
 
 ## Author
 
