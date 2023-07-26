@@ -13,7 +13,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Installation
+## Installation With CocoaPods
 
 HHCustomCorner is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -21,6 +21,19 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'HHCustomCorner'
 ```
+
+## Installation With Swift Package Manager
+
+`HHCustomCorner` can be installed using Swift Package Manager.
+
+1. In Xcode open **File/Swift Packages/Add Package Dependency...** menu.
+
+2. Copy and paste the package URL:
+
+```
+https://github.com/shamzahasan88/HHCustomCorner.git
+```
+
 
 ## Preview
 
