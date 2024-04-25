@@ -37,7 +37,7 @@ https://github.com/shamzahasan88/HHCustomCorner.git
 
 ## Preview
 
-![](https://reignsol.net/github-assets/hhcustomcorner.gif)
+![](https://reignsol.com/public/github-assets/hhcustomcorner.gif)
 
 ## How to use
 
@@ -48,8 +48,8 @@ https://github.com/shamzahasan88/HHCustomCorner.git
 - Assign properties in `HHCustomCornerView` inspector
 - Customize corners as per your need
 
-![](https://reignsol.net/github-assets/hhcustomcorner_inspector.png)
-![](https://reignsol.net/github-assets/hhcustomcorner_example.png)
+![](https://reignsol.com/public/github-assets/hhcustomcorner_inspector.png)
+![](https://reignsol.com/public/github-assets/hhcustomcorner_example.png)
 
 ### UIButton
 - Drop a UIView in UIViewController
@@ -58,8 +58,8 @@ https://github.com/shamzahasan88/HHCustomCorner.git
 - Assign properties in `HHCustomCornerButton` inspector
 - Customize corners as per your need
 
-![](https://reignsol.net/github-assets/hhcustomcornerbutton_inspector.png)
-![](https://reignsol.net/github-assets/hhcustomcornerbutton_example.png)
+![](https://reignsol.com/public/github-assets/hhcustomcornerbutton_inspector.png)
+![](https://reignsol.com/public/github-assets/hhcustomcornerbutton_example.png)
 
 ## Author
 
