@@ -1,37 +1,28 @@
-# OS X
-.DS_Store
+Here is a draft of the code you requested:
 
-# Xcode
-build/
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata/
-*.xccheckout
-profile
-*.moved-aside
-DerivedData
-*.hmap
-*.ipa
+```swift
+import UIKit
 
-# Bundler
-.bundle
+class ViewController: UIViewController {
 
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        addRedView()
+    }
 
-Carthage/Build
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
 
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
-# 
-# Note: if you ignore the Pods directory, make sure to uncomment
-# `pod install` in .travis.yml
-#
-# Pods/
+    func addRedView() {
+        let redView = UIView()
+        redView.backgroundColor = .red
+        redView.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
+        self.view.addSubview(redView)
+    }
+}
+```
+
+In this code, I've added a new method called `addRedView`. This method creates a new `UIView` instance, sets its background color to red, its frame to a 100x100 square, and then adds it as a subview of the view controller's main view. This method is then called in `viewDidLoad`, so the red view will be added as soon as the view controller's view is loaded into memory.
